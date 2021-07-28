@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bgColor: #0f044c;
+  --white: #fff;
+  --boxShadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.32);
+  --primary: #50cb93;
+}
+body {
+  background-color: var(--bgColor);
+  font-family: "Open Sans", sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 1.5rem;
+}
+
+.header {
+  font-family: Bebas Neue, cursive;
+  background-color: var(--white);
+  padding: 1.5rem 1rem;
+  box-shadow: var(--boxShadow);
+  text-align: center;
+}
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+.main {
+  margin-top: 1.5rem;
+  background-color: var(--white);
+  padding: 2rem 0;
+  box-shadow: var(--boxShadow);
+}
+
+.form {
+  max-width: 360px;
+  margin: 0 auto;
+  text-align: center;
+}
+.inputContainer {
+  margin-bottom: 1rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+input {
+  width: 60%;
+  font: inherit;
+  padding: 0.5rem;
+}
+
+.buttonContainer {
+  margin-top: 30px;
+}
+
+.buttonContainer span {
+  width: 60%;
+  background-color: var(--primary);
+  color: var(--white);
+  border: 1px solid var(--primary);
+  font: inherit;
+  padding: 1rem;
+  box-shadow: var(--boxShadow);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.buttonContainer span:hover {
+  background-color: var(--white);
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.footer {
+  background-color: var(--white);
+  margin: 1.5rem 0;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  box-shadow: var(--boxShadow);
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.list-item {
+  margin: 0 0.5rem;
+}
+
+.list-link {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+small {
+  display: block;
+  text-align: center;
+  columns: #777;
+}
+
+img {
+  display: block;
+  max-width: 300px;
+  margin: 40px auto 10px auto;
+}
+
+p {
+  text-align: center;
+}
